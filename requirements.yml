@@ -1,0 +1,4 @@
+---
+- src: https://github.com/vitalk/ansible-secure-ssh
+- src: jnv.unattended-upgrades
+

@@ -1,0 +1,9 @@
+---
+bootstrap:
+  hosts:
+    home.shepherdjerred.com
+  vars:
+    ansible_user: pi
+bastion:
+  hosts:
+    home.shepherdjerred.com

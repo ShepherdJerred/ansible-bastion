@@ -1,0 +1,8 @@
+---
+- name: create group jerred
+  group:
+    name: jerred
+- name: create user jerred
+  user:
+    name: jerred
+    group: jerred

@@ -1,0 +1,16 @@
+---
+- name: install ufw
+  become: yes
+  apt:
+    name: ufw
+- name: whitelist ssh
+  become: yes
+  ufw:
+    rule: allow
+    name: OpenSSH
+- name: enable ufw
+  become: yes
+  ufw:
+    state: enabled
+    policy: deny
+    direction: incoming
